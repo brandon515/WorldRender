@@ -1,0 +1,10 @@
+[package]
+name = "WorldRender"
+version = "0.1.0"
+authors = ["Brandon Haley <brandon.haley94@gmail.com>"]
+
+[dependencies.getopts]
+git = "https://github.com/rust-lang/getopts.git"
+
+[dependencies.PGMap]
+path = "../PGMap"

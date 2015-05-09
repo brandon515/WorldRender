@@ -1,0 +1,50 @@
+[root]
+name = "WorldRender"
+version = "0.1.0"
+dependencies = [
+ "PGMap 0.0.1",
+ "getopts 0.2.10 (git+https://github.com/rust-lang/getopts.git)",
+]
+
+[[package]]
+name = "PGMap"
+version = "0.0.1"
+dependencies = [
+ "rand 0.3.8 (git+https://github.com/rust-lang/rand.git)",
+ "rustc-serialize 0.3.14 (git+https://github.com/rust-lang/rustc-serialize.git)",
+]
+
+[[package]]
+name = "getopts"
+version = "0.2.10"
+source = "git+https://github.com/rust-lang/getopts.git#02ef4b410c5e9d39c79d673d7a59c16fe862a705"
+dependencies = [
+ "log 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "libc"
+version = "0.1.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "log"
+version = "0.3.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "libc 0.1.6 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "rand"
+version = "0.3.8"
+source = "git+https://github.com/rust-lang/rand.git#935448508b67f45c4a156de71146df921b60238b"
+dependencies = [
+ "libc 0.1.6 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "rustc-serialize"
+version = "0.3.14"
+source = "git+https://github.com/rust-lang/rustc-serialize.git#36910088d77bcbb63cd56e7660626f06da3ac0df"
+
